@@ -6,14 +6,17 @@ title: Ubuntu 16.04에서 서브라임 텍스트 설정
 Sublime text에서 MarkDown을 활용하기 위해서 관련 플러그인 설치가 필요하다.
 
 
-
 ### 한글 입력처리
 처음 우분투를 설치하면 한글입력이 안되는 문제가 있으므로 아래와 같이 한글이 입력되게 처리해주어야 한다. 일단 github에서 관련 소스를 내려받는다.
-```
+```bash
 $ git clone https://github.com/lyfeyaj/sublime-text-imfix.git
-// 내려받은 디렉토리로 이동
+```
+내려받은 디렉토리로 이동
+```bash
 $ cd sublime-text-imfix
-// 실행
+```
+실행
+```bash
 $ ./sublime-imfix
 ```
 
@@ -23,7 +26,7 @@ $ ./sublime-imfix
 1. Ctrl+Shift+P -> Install Package -> 'Markdown Editing' 설치
 
 ### Markdown Preview 설치
-마크다운 파일(.md) 을 브라우저로 바로 보여주는 플러그인이다. 
+마크다운 파일(.md) 을 브라우저로 바로 보여주는 플러그인이다.
 1. Ctrl+Shift+P -> Install Package -> 'Markdown Preview' 설치
 2. Ctrl+Shift+P -> Preview in Browser -> Github, markdown 중 선택
 3. Preferences - Key Bindings 에 아래와 같이 단축키 추가
