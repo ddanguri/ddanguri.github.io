@@ -1,8 +1,8 @@
 ### your site title here
 
 title: Do I know dev?
-baseurl:  # name of the repository
-email: your@email.com
+baseurl:
+email: sweet.khg@gmail.com
 
 
 
@@ -15,7 +15,7 @@ markdown: kramdown
 analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname:
 
 
 #optimization

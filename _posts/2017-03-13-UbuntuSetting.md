@@ -5,19 +5,22 @@ title: Ubuntu 16.04 각종 프로그램 설치 정리
 
 ### Chrome 설치
 Download the package (64 bit):
-``
+
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-``
+```
 
 Install the package, forcing install of dependencies:
-``
+
+```bash
 sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
-``
+```
 
 In case any dependencies diddnt install (you would have a warning or failure message for this), you can force them via:
-``
+
+```bash
 sudo apt-get install -f
-``
+```
 
 Note: refer to the link above for 32 bit systems.
 
