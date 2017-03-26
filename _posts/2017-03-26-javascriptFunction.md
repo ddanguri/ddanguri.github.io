@@ -1,7 +1,7 @@
 ---
 layout: post
 category : javascript
-title: [Javascript] Function 총정리
+title: Javascript_Function 총정리
 ---
 
 ### 들어가기에 앞서

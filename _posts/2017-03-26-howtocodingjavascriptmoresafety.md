@@ -1,8 +1,9 @@
 ---
 layout: post
-category : javascript
-title: [Javascript] 더 안전한 자바스크립트 코딩
+category: javascript
+title: Javascript_더 안전한 자바스크립트 코딩
 ---
+
 ### 1. 재귀함수 사용 시 arguments.callee를 쓰자
 
 ```Javascript

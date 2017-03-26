@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: 각종 프록시(proxy) 환경설정 정리
+---
 
 ### git
 
