@@ -1,5 +1,6 @@
 ---
 layout: post
+category : ubuntu
 title: Ubuntu 16.04 각종 오류들 정리
 ---
 

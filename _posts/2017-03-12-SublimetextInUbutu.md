@@ -1,5 +1,6 @@
 ---
 layout: post
+category : ubuntu
 title: Ubuntu 16.04에서 서브라임 텍스트 설정
 ---
 

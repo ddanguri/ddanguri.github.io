@@ -1,5 +1,6 @@
 ---
 layout: post
+category : ubuntu
 title: Ubuntu 16.04 각종 프로그램 설치 정리
 ---
 
@@ -41,6 +42,15 @@ $ sudo apt-get install atom
 기본으로 설치되어 있는 터미널은 창분할이 안되는 단점이 있어서 창분할이 지원되는 Terminator를 사용합니다.
 ```bash
 $ sudo apt-get install terminator
+```
+
+### Node.js 설치
+[Nodesource](https://github.com/nodesource/distributions)에 버전별로 설치방법이 나와있습니다. 아래는 v7.x 버전 설치 명령입니다.
+
+```bash
+$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+
+$ sudo apt-get install -y nodejs
 ```
 
 ### 참고자료
