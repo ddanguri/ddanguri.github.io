@@ -26,3 +26,28 @@ function factorial(num){
   else return num * arguments.callee(num-1);
 }
 ```
+
+### 2. 배열의 length 속성은 최대 인덱스에 하나를 더한 값이다.
+
+```Javascript
+var a = ["dog","cat","rabbit"];
+a[100] = "pig";
+console.log(a.length); // 101
+
+console.log(typeof a[5]); //"undefined"
+console.log(typeof a[99]); //"undefined"
+```
+for문 사용 시 아래와 같이 사용하는 것이 효율적입니다.
+반복문에서 거짓으로 취급되는 항목('undefined') 을 발견하면 루프는 멈춥니다. 따라서 위의 코드와 같이 undefined가 포함된 배열에서 사용하면 올바르게 작동하지 않습니다.
+
+```javascript
+for (var i = 0, item; item = a[i]; i++) {
+    // item 으로 뭔가를 수행
+}
+```
+
+
+배열에 항목을 추가할 때는 아래와 같이 추가 하는 것이 안전합니다.
+```Javascript
+array[array.length] = item;
+```
